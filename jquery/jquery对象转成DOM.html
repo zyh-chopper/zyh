@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <title>Document</title>
+    <style></style>
+    <script src="jquery.min.js"></script>
+  </head>
+  <body>
+    <video src="mov.mp4" muted>123</video>
+    <script>
+      //dom转为jquery
+      let v1 = document.querySelector('video');
+      //   v1.play();
+      //jQuery转为DOM
+      $('video')[0].play();
+    </script>
+  </body>
+</html>
